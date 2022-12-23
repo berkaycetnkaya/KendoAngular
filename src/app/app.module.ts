@@ -10,6 +10,8 @@ import { DashboardModule } from './modules/dashboard/dashboard.module';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
+import { ButtonsModule } from '@progress/kendo-angular-buttons';
+
 
 @NgModule({
   declarations: [
@@ -24,6 +26,7 @@ import { SharedModule } from './shared/shared.module';
     DashboardModule,
     BacklogModule,
     BrowserAnimationsModule,
+    ButtonsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
